@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "update": "npm uninstall react-compose && npm install",
+    "build": "webpack --config webpack.config.js",
+    "build:watch": "webpack-dev-server --config webpack.config.js --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Altitude Labs",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.16.4",
+    "react": "15.4.2",
+    "react-compose": "file:../",
+    "react-dom": "15.4.2",
+    "react-router": "^3.0.2",
+    "recompose": "0.22.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.3"
+  }
+}

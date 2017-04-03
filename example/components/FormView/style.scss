@@ -1,0 +1,22 @@
+.form-view {
+  padding-top: 20px;
+
+  .text-input {
+    padding: 10px 0;
+    background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .error-text {
+      color: red;
+    }
+
+  }
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background: #D4D4D4;
+  }
+}
